@@ -1,8 +1,44 @@
-# React + Vite
+# Lista de tarefas em ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Funções
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [x] Adicionar uma nova tarefa
+- [x] Marcar e desmarcar uma tarefa como concluída
+- [x] Remover uma tarefa da listagem
+- [x] Mostrar o progresso de conclusão das tarefas
+
+---
+
+## Tecnologias utilizada
+
+- [Vite](https://vitejs.dev/)
+- [ReactJs](https://reactjs.org)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Styled Components](https://styled-components.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+- ## Guia de inicialização
+
+```bash
+# Crie uma pasta em seu computador e navegue até a pasta criada no seu terminal
+
+$ cd reactjs-todolist
+
+# Clone o repositório a seguir
+
+$ git clone https://github.com/JuanRezende/ReactJS-TodoList.git
+
+#Instale as dependências do projeto
+
+$ npm install
+
+#Inicialize a aplicação em ambiente de desenvolvimento
+
+$ npm run dev
+
+#Se tudo correr bem, aparecerá no terminal a mensagem a seguir
+
+Local: http://localhost:XXXX/
+```
